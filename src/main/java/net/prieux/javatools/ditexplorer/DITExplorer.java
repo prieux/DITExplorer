@@ -57,7 +57,7 @@ public class DITExplorer {
     public void process() throws IOException {
         displayLicense();
         final int nb = 0;
-        final String test = "TODO FIXME"
+        final String test = "TODO FIXME";
         DITExplorerParameters params = DITExplorerParameters.getInstance();
         List<String> jarPathList = getJarPathListAndInitClassLoader(params.getPathOfJars());
         ClassGraph classGraph = analyzeClassInheritance(jarPathList, params.getFromClassPath());
