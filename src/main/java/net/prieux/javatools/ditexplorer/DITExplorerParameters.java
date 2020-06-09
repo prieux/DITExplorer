@@ -42,7 +42,7 @@ public final class DITExplorerParameters {
 		this.fromClassPath = args[2];
 	}
 	
-	public void setParameters(String inputPath, String outputFile, String fromClassPath, String patternToShorten) {
+	public void setParameters(String inputPath, String outputFile, String fromClassPath) {
 		this.pathOfJars = inputPath;
 		this.outputFilePath = outputFile;
 		this.fromClassPath = fromClassPath;
