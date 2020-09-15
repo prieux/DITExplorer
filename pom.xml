@@ -17,7 +17,7 @@
     <sonar.projectKey>prieux_DITExplorer</sonar.projectKey>
     <sonar.organization>prieux</sonar.organization>
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-    <sonar.login>53640278747b27de633cbdb0536099655bb7c215</sonar.login>
+    <sonar.login>${{ secrets.SONAR_TOKEN }}</sonar.login>
     <maven.compiler.source>9</maven.compiler.source>
     <maven.compiler.target>1.9</maven.compiler.target>
   </properties>
